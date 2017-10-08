@@ -1,0 +1,41 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab quiz\lab1Quiz\lab1Quiz\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab quiz\lab1Quiz\lab1Quiz\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128a1udef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128A1Udef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab quiz\lab1Quiz\lab1Quiz\Debug\lab1Quiz.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab1Quiz.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab1Quiz.map</FILE>
+  <FILE>lab1Quiz.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab quiz\lab1Quiz\lab1Quiz\main.asm</FILE><LINE>27</LINE></MAIN>
+  <KITT_Table><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab quiz\lab1Quiz\lab1Quiz\main.asm</FILE><LINE>15</LINE></KITT_Table>
+  <START><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab quiz\lab1Quiz\lab1Quiz\main.asm</FILE><LINE>46</LINE></START>
+  <PRESS_START><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab quiz\lab1Quiz\lab1Quiz\main.asm</FILE><LINE>50</LINE></PRESS_START>
+  <FOR_IF_F><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab quiz\lab1Quiz\lab1Quiz\main.asm</FILE><LINE>62</LINE></FOR_IF_F>
+  <PLAY><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab quiz\lab1Quiz\lab1Quiz\main.asm</FILE><LINE>57</LINE></PLAY>
+  <FOR_END_F><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab quiz\lab1Quiz\lab1Quiz\main.asm</FILE><LINE>75</LINE></FOR_END_F>
+  <DELAY_10ms><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab quiz\lab1Quiz\lab1Quiz\main.asm</FILE><LINE>132</LINE></DELAY_10ms>
+  <RELOAD><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab quiz\lab1Quiz\lab1Quiz\main.asm</FILE><LINE>112</LINE></RELOAD>
+  <FOR_IF_2><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab quiz\lab1Quiz\lab1Quiz\main.asm</FILE><LINE>87</LINE></FOR_IF_2>
+  <FOR_END_2><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab quiz\lab1Quiz\lab1Quiz\main.asm</FILE><LINE>101</LINE></FOR_END_2>
+  <DFOR_IF><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab quiz\lab1Quiz\lab1Quiz\main.asm</FILE><LINE>142</LINE></DFOR_IF>
+  <BODY_LOOP><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab quiz\lab1Quiz\lab1Quiz\main.asm</FILE><LINE>150</LINE></BODY_LOOP>
+  <DEND_FOR><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab quiz\lab1Quiz\lab1Quiz\main.asm</FILE><LINE>154</LINE></DEND_FOR>
+ </LABELS>
+</ASSEMBLER_INFO>

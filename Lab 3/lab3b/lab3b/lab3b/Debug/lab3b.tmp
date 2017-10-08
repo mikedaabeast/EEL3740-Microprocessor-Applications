@@ -1,0 +1,33 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3b\lab3b\lab3b\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3b\lab3b\lab3b\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128a1udef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128A1Udef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3b\lab3b\lab3b\Debug\lab3b.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab3b.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab3b.map</FILE>
+  <FILE>lab3b.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <inc_display><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3b\lab3b\lab3b\main.asm</FILE><LINE>190</LINE></inc_display>
+  <MAIN><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3b\lab3b\lab3b\main.asm</FILE><LINE>38</LINE></MAIN>
+  <Change_CLK_32HZ><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3b\lab3b\lab3b\main.asm</FILE><LINE>86</LINE></Change_CLK_32HZ>
+  <BLUE_PWM><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3b\lab3b\lab3b\main.asm</FILE><LINE>129</LINE></BLUE_PWM>
+  <Never_End><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3b\lab3b\lab3b\main.asm</FILE><LINE>76</LINE></Never_End>
+  <While_32_flag><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3b\lab3b\lab3b\main.asm</FILE><LINE>99</LINE></While_32_flag>
+ </LABELS>
+</ASSEMBLER_INFO>

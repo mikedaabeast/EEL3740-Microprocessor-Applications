@@ -1,0 +1,58 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128a1udef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128A1Udef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\Debug\lab4_serial_menu.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab4_serial_menu.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab4_serial_menu.map</FILE>
+  <FILE>lab4_serial_menu.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>66</LINE></MAIN>
+  <Test_String><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>39</LINE></Test_String>
+  <Menu><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>42</LINE></Menu>
+  <Food><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>48</LINE></Food>
+  <Quote><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>51</LINE></Quote>
+  <Movie><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>55</LINE></Movie>
+  <UF_Course><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>58</LINE></UF_Course>
+  <Hobby><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>61</LINE></Hobby>
+  <Done><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>64</LINE></Done>
+  <Change_CLK_32HZ><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>290</LINE></Change_CLK_32HZ>
+  <USART_INIT><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>193</LINE></USART_INIT>
+  <Display_Menu><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>174</LINE></Display_Menu>
+  <Never_End><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>77</LINE></Never_End>
+  <IN_CHAR><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>270</LINE></IN_CHAR>
+  <Z_POINTER_LOGIC><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>93</LINE></Z_POINTER_LOGIC>
+  <IF2><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>107</LINE></IF2>
+  <END_IF><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>160</LINE></END_IF>
+  <IF3><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>114</LINE></IF3>
+  <IF4><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>121</LINE></IF4>
+  <IF5><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>128</LINE></IF5>
+  <IF6><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>135</LINE></IF6>
+  <IFD><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>142</LINE></IFD>
+  <PASS><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>150</LINE></PASS>
+  <ELSE><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>154</LINE></ELSE>
+  <OUT_STRING><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>248</LINE></OUT_STRING>
+  <OUT_CHAR><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>231</LINE></OUT_CHAR>
+  <Transfer_Complete><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>234</LINE></Transfer_Complete>
+  <While_String><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>251</LINE></While_String>
+  <End_While_String><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>259</LINE></End_While_String>
+  <Recieve_Complete><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>274</LINE></Recieve_Complete>
+  <While_32_flag><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_menu\lab4_serial_menu\main.asm</FILE><LINE>303</LINE></While_32_flag>
+ </LABELS>
+</ASSEMBLER_INFO>

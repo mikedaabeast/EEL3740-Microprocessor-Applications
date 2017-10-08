@@ -1,0 +1,33 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab1\lab1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab1\lab1\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128a1udef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128A1Udef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab1\lab1\Debug\lab1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab1.map</FILE>
+  <FILE>lab1.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab1\lab1\main.asm</FILE><LINE>31</LINE></MAIN>
+  <WHILE><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab1\lab1\main.asm</FILE><LINE>46</LINE></WHILE>
+  <ELSEIF><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab1\lab1\main.asm</FILE><LINE>59</LINE></ELSEIF>
+  <Fetch_Store><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab1\lab1\main.asm</FILE><LINE>101</LINE></Fetch_Store>
+  <ENDIF><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab1\lab1\main.asm</FILE><LINE>67</LINE></ENDIF>
+  <Display><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab1\lab1\main.asm</FILE><LINE>82</LINE></Display>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,43 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\micha\Documents\uP\Labs\Test1a\Test1a\Test1a\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\micha\Documents\uP\Labs\Test1a\Test1a\Test1a\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128a1udef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\micha\Documents\uP\Labs\Test1a\Test1a\Test1a\Debug\Test1a.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Test1a.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Test1a.map</FILE>
+  <FILE>Test1a.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <Change><FILE>C:\Users\micha\Documents\uP\Labs\Test1a\Test1a\Test1a\main.asm</FILE><LINE>116</LINE></Change>
+  <MAIN><FILE>C:\Users\micha\Documents\uP\Labs\Test1a\Test1a\Test1a\main.asm</FILE><LINE>20</LINE></MAIN>
+  <Change_CLK_32HZ><FILE>C:\Users\micha\Documents\uP\Labs\Test1a\Test1a\Test1a\main.asm</FILE><LINE>155</LINE></Change_CLK_32HZ>
+  <Else><FILE>C:\Users\micha\Documents\uP\Labs\Test1a\Test1a\Test1a\main.asm</FILE><LINE>51</LINE></Else>
+  <BLINKING><FILE>C:\Users\micha\Documents\uP\Labs\Test1a\Test1a\Test1a\main.asm</FILE><LINE>145</LINE></BLINKING>
+  <ENDIF><FILE>C:\Users\micha\Documents\uP\Labs\Test1a\Test1a\Test1a\main.asm</FILE><LINE>58</LINE></ENDIF>
+  <SET_PORTA_INT><FILE>C:\Users\micha\Documents\uP\Labs\Test1a\Test1a\Test1a\main.asm</FILE><LINE>93</LINE></SET_PORTA_INT>
+  <Never_End><FILE>C:\Users\micha\Documents\uP\Labs\Test1a\Test1a\Test1a\main.asm</FILE><LINE>68</LINE></Never_End>
+  <other><FILE>C:\Users\micha\Documents\uP\Labs\Test1a\Test1a\Test1a\main.asm</FILE><LINE>79</LINE></other>
+  <DELAYx10ms><FILE>C:\Users\micha\Documents\uP\Labs\Test1a\Test1a\Test1a\main.asm</FILE><LINE>202</LINE></DELAYx10ms>
+  <restart><FILE>C:\Users\micha\Documents\uP\Labs\Test1a\Test1a\Test1a\main.asm</FILE><LINE>83</LINE></restart>
+  <ELSE2><FILE>C:\Users\micha\Documents\uP\Labs\Test1a\Test1a\Test1a\main.asm</FILE><LINE>131</LINE></ELSE2>
+  <end2><FILE>C:\Users\micha\Documents\uP\Labs\Test1a\Test1a\Test1a\main.asm</FILE><LINE>136</LINE></end2>
+  <While_32_flag><FILE>C:\Users\micha\Documents\uP\Labs\Test1a\Test1a\Test1a\main.asm</FILE><LINE>168</LINE></While_32_flag>
+  <FOR_IF><FILE>C:\Users\micha\Documents\uP\Labs\Test1a\Test1a\Test1a\main.asm</FILE><LINE>212</LINE></FOR_IF>
+  <BODY_LOOP><FILE>C:\Users\micha\Documents\uP\Labs\Test1a\Test1a\Test1a\main.asm</FILE><LINE>220</LINE></BODY_LOOP>
+  <END_FOR><FILE>C:\Users\micha\Documents\uP\Labs\Test1a\Test1a\Test1a\main.asm</FILE><LINE>224</LINE></END_FOR>
+ </LABELS>
+</ASSEMBLER_INFO>

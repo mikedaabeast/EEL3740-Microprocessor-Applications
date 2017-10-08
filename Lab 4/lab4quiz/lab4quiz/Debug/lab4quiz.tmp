@@ -1,0 +1,44 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4quiz\lab4quiz\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4quiz\lab4quiz\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128a1udef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128A1Udef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4quiz\lab4quiz\Debug\lab4quiz.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab4quiz.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab4quiz.map</FILE>
+  <FILE>lab4quiz.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4quiz\lab4quiz\main.asm</FILE><LINE>41</LINE></MAIN>
+  <Test_String><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4quiz\lab4quiz\main.asm</FILE><LINE>33</LINE></Test_String>
+  <Output_Table><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4quiz\lab4quiz\main.asm</FILE><LINE>38</LINE></Output_Table>
+  <Change_CLK_32HZ><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4quiz\lab4quiz\main.asm</FILE><LINE>199</LINE></Change_CLK_32HZ>
+  <USART_INIT><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4quiz\lab4quiz\main.asm</FILE><LINE>102</LINE></USART_INIT>
+  <Never_End><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4quiz\lab4quiz\main.asm</FILE><LINE>47</LINE></Never_End>
+  <IN_STRING><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4quiz\lab4quiz\main.asm</FILE><LINE>63</LINE></IN_STRING>
+  <WHILE_STRING_IN><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4quiz\lab4quiz\main.asm</FILE><LINE>73</LINE></WHILE_STRING_IN>
+  <END_STRING><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4quiz\lab4quiz\main.asm</FILE><LINE>84</LINE></END_STRING>
+  <IN_CHAR><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4quiz\lab4quiz\main.asm</FILE><LINE>180</LINE></IN_CHAR>
+  <OUT_STRING><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4quiz\lab4quiz\main.asm</FILE><LINE>158</LINE></OUT_STRING>
+  <OUT_CHAR><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4quiz\lab4quiz\main.asm</FILE><LINE>141</LINE></OUT_CHAR>
+  <Transfer_Complete><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4quiz\lab4quiz\main.asm</FILE><LINE>144</LINE></Transfer_Complete>
+  <While_String><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4quiz\lab4quiz\main.asm</FILE><LINE>161</LINE></While_String>
+  <End_While_String><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4quiz\lab4quiz\main.asm</FILE><LINE>169</LINE></End_While_String>
+  <Recieve_Complete><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4quiz\lab4quiz\main.asm</FILE><LINE>184</LINE></Recieve_Complete>
+  <While_32_flag><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4quiz\lab4quiz\main.asm</FILE><LINE>212</LINE></While_32_flag>
+ </LABELS>
+</ASSEMBLER_INFO>

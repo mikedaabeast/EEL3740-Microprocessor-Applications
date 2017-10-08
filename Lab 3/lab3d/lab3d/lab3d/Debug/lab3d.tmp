@@ -1,0 +1,50 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128a1udef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128A1Udef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\Debug\lab3d.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab3d.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab3d.map</FILE>
+  <FILE>lab3d.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <ext_int_logic><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\main.asm</FILE><LINE>406</LINE></ext_int_logic>
+  <overflow_logic><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\main.asm</FILE><LINE>337</LINE></overflow_logic>
+  <overflow_05_logic><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\main.asm</FILE><LINE>388</LINE></overflow_05_logic>
+  <MAIN><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\main.asm</FILE><LINE>85</LINE></MAIN>
+  <Change_CLK_32HZ><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\main.asm</FILE><LINE>557</LINE></Change_CLK_32HZ>
+  <PWM_setup><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\main.asm</FILE><LINE>436</LINE></PWM_setup>
+  <Never_End><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\main.asm</FILE><LINE>126</LINE></Never_End>
+  <SET_COUNTER><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\main.asm</FILE><LINE>141</LINE></SET_COUNTER>
+  <SET_COUNTER_INT><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\main.asm</FILE><LINE>162</LINE></SET_COUNTER_INT>
+  <STOP_COUNTER><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\main.asm</FILE><LINE>182</LINE></STOP_COUNTER>
+  <SET_05_COUNTER><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\main.asm</FILE><LINE>205</LINE></SET_05_COUNTER>
+  <SET_05_COUNTER_INT><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\main.asm</FILE><LINE>226</LINE></SET_05_COUNTER_INT>
+  <STOP_05_COUNTER><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\main.asm</FILE><LINE>247</LINE></STOP_05_COUNTER>
+  <Set_Pattern><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\main.asm</FILE><LINE>272</LINE></Set_Pattern>
+  <ELSEIF1><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\main.asm</FILE><LINE>289</LINE></ELSEIF1>
+  <ENDELSE><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\main.asm</FILE><LINE>325</LINE></ENDELSE>
+  <ELSEIF2><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\main.asm</FILE><LINE>301</LINE></ELSEIF2>
+  <ELSEIF3><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\main.asm</FILE><LINE>314</LINE></ELSEIF3>
+  <ENDIF><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\main.asm</FILE><LINE>354</LINE></ENDIF>
+  <SET_COMPARE_CH><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\main.asm</FILE><LINE>485</LINE></SET_COMPARE_CH>
+  <ELSE><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\main.asm</FILE><LINE>517</LINE></ELSE>
+  <ENDIF_2><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\main.asm</FILE><LINE>522</LINE></ENDIF_2>
+  <While_32_flag><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3d\lab3d\lab3d\main.asm</FILE><LINE>570</LINE></While_32_flag>
+ </LABELS>
+</ASSEMBLER_INFO>

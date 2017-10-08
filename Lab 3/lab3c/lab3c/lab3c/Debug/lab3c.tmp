@@ -1,0 +1,37 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3c\lab3c\lab3c\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3c\lab3c\lab3c\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128a1udef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128A1Udef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3c\lab3c\lab3c\Debug\lab3c.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab3c.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab3c.map</FILE>
+  <FILE>lab3c.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <ext_int_logic><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3c\lab3c\lab3c\main.asm</FILE><LINE>186</LINE></ext_int_logic>
+  <overflow_logic><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3c\lab3c\lab3c\main.asm</FILE><LINE>140</LINE></overflow_logic>
+  <MAIN><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3c\lab3c\lab3c\main.asm</FILE><LINE>49</LINE></MAIN>
+  <Change_CLK_32HZ><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3c\lab3c\lab3c\main.asm</FILE><LINE>245</LINE></Change_CLK_32HZ>
+  <BLUE_PWM><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3c\lab3c\lab3c\main.asm</FILE><LINE>286</LINE></BLUE_PWM>
+  <Never_End><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3c\lab3c\lab3c\main.asm</FILE><LINE>89</LINE></Never_End>
+  <SET_COUNTER><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3c\lab3c\lab3c\main.asm</FILE><LINE>101</LINE></SET_COUNTER>
+  <SET_COUNTER_INT><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3c\lab3c\lab3c\main.asm</FILE><LINE>120</LINE></SET_COUNTER_INT>
+  <ENDIF><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3c\lab3c\lab3c\main.asm</FILE><LINE>157</LINE></ENDIF>
+  <While_32_flag><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3c\lab3c\lab3c\main.asm</FILE><LINE>258</LINE></While_32_flag>
+ </LABELS>
+</ASSEMBLER_INFO>

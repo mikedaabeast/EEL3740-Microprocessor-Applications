@@ -1,0 +1,36 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab1d\lab1d\lab1d\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab1d\lab1d\lab1d\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128a1udef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128A1Udef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab1d\lab1d\lab1d\Debug\lab1d.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab1d.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab1d.map</FILE>
+  <FILE>lab1d.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab1d\lab1d\lab1d\main.asm</FILE><LINE>29</LINE></MAIN>
+  <KITT_Table><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab1d\lab1d\lab1d\main.asm</FILE><LINE>20</LINE></KITT_Table>
+  <WHILE><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab1d\lab1d\lab1d\main.asm</FILE><LINE>35</LINE></WHILE>
+  <FOR_IF><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab1d\lab1d\lab1d\main.asm</FILE><LINE>47</LINE></FOR_IF>
+  <END_FOR><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab1d\lab1d\lab1d\main.asm</FILE><LINE>68</LINE></END_FOR>
+  <DELAY_10ms><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab1d\lab1d\lab1d\main.asm</FILE><LINE>84</LINE></DELAY_10ms>
+  <DFOR_IF><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab1d\lab1d\lab1d\main.asm</FILE><LINE>94</LINE></DFOR_IF>
+  <BODY_LOOP><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab1d\lab1d\lab1d\main.asm</FILE><LINE>102</LINE></BODY_LOOP>
+  <DEND_FOR><FILE>C:\Users\micha\Documents\uP\Labs\Lab 1\Atmel\lab1d\lab1d\lab1d\main.asm</FILE><LINE>106</LINE></DEND_FOR>
+ </LABELS>
+</ASSEMBLER_INFO>

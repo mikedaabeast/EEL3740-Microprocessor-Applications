@@ -1,0 +1,538 @@
+\documentclass[11pt]{article}
+\renewcommand{\baselinestretch}{1.05}
+\usepackage{amsmath,amsthm,verbatim,amssymb,amsfonts,amscd, graphicx}
+\usepackage{blindtext}
+
+\usepackage{caption}
+\usepackage{enumitem}
+
+%Additional Packages
+\usepackage{enumitem}
+\usepackage{graphics}
+\usepackage{float}
+\graphicspath{ {images/} }
+%\usepackage[framed]{mcode}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=cyan,
+}
+
+\topmargin0.0cm
+\headheight0.0cm
+\headsep0.0cm
+\oddsidemargin0.0cm
+\textheight23.0cm
+\textwidth16.5cm
+\footskip1.0cm
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem*{surfacecor}{Corollary 1}
+\newtheorem{conjecture}{Conjecture} 
+\newtheorem{question}{Question} 
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+
+\usepackage{indentfirst}
+%\renewcommand{\thesubsubsection}{\thesubsection.\alph{subsection}}
+
+\newcommand{\floor}[1]{\lfloor #1 \rfloor}
+
+%SETUP PSUEDOCODE
+\usepackage{tcolorbox}
+
+
+%SETUP AtxMEGA128A1U
+\usepackage{listings}
+
+\usepackage{xcolor}
+\definecolor{bluekeywords}{rgb}{0.13,0.13,1}
+\definecolor{greencomments}{rgb}{0,0.5,0}
+\definecolor{turqusnumbers}{rgb}{0.17,0.57,0.69}
+\definecolor{redstrings}{rgb}{0.5,0,0}
+
+
+%Set up code
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+	language=C,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=true,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+
+%
+% START OF DOCUMENT
+%
+\begin{document}
+\captionsetup[figure]{labelfont=bf} 
+
+\title{Lab 5}
+\author{\textbf{Michael Arboleda}\\Lab Section: 7F34}
+\maketitle
+%
+% PRELAB QUESTIONS
+%
+\section*{b. Answers to all pre-lab questions}
+
+
+
+\begin{enumerate}[label={\arabic*)},font={\color{red}\bfseries}]
+	%
+	%1
+	%
+	\item What is the difference in conversion ranges between 8-bit unsigned and signed conversion modes? List both ranges.
+	\\[0.8ex]
+	\textbf{ANS: } Conversion Range for unsigned 8-bit: 0 to 255. Conversion for signed 8-bit: -128 to 127. While both ranges represent 256 numbers, unsigned can use larger numbers but not negative numbers.
+	%
+	%2
+	%
+	\item Assume you wanted a voltage reference range from -2 V to 3 V, with an unsigned 12-bit ADC. What are the voltages if the ADC output is 0xA92 and 0x976?
+	\\[0.8ex]
+	\textbf{ANS: } The voltage for 0xA92 is 1.304 V. The voltage for 0x976 is 0.957 V.
+	%
+	%3
+	%
+	\item Write the address decode equation to put the input and
+	output ports at addresses 0x2000 – 0xAFFF. 
+	\\[0.8ex]
+	\textbf{ANS: } ($\overline{A15}$ * $\overline{A14}$ * A13) + ($\overline{A15}$ * A14) + (A15 * $\overline{A14}$ *$\overline{A13}$) + (A15 * $\overline{A14}$ * A13 * $\overline{A12}$);
+\end{enumerate}
+%
+% PROBLEMS ENCOUNTERED
+%
+\section*{c. Problems Encountered} 
+"Problems" encounter came from the lab doc not being clear enough. AS i did the lab, I assumed thing based on the language, however, TAs clarified up the confusion. Examples include that freerunner was not supposed to be use, so I had to fix my part b,c,d,e. Also the menu choices because I thought the lab wanted a continous display of other CdS or te DAD, however only one was needed at a time,  
+%
+% FUTURE WORK
+%
+\section*{d. Future Work/Applications}
+In this lab only one configuration for ADC was used. It would be useful to try and make working programs for different ADC configurations, including Free Run and other gain styles. Also PWM can be used with the LED to change the dimness of the LED in relation to the value red by the CdS.
+%
+% SCHEMATICS
+%
+\section*{e. Schematics}
+N/A
+%
+% PSEUDOCODE
+%
+\newpage
+\section*{g. Pseudocode/Flowcharts}
+%
+% PSEUDOCODE PART A
+%
+\textbf{\textcolor{blue}{Pseudocode for Lab5a.c:}}
+\begin{tcolorbox}
+\begin{verbatim}
+MAIN:
+    * Call Change_CLK_32HZ Function
+    
+WHILE(TRUE){
+	* Store 0x37 in 0x8500
+	* Store 0x73 in 0x8501
+}
+END
+
+
+FUNCTION EBI_INIT
+    * Set up EBI CTRL
+    * Set up EBI CHIP 0 and base address 
+    * Set up PORT H
+    * Set up PORT K
+
+
+FUNCTION Change_CLK_32HZ
+    * Enable the new oscillator
+
+    WHILE(OSC FLAG not set){}
+
+    * Write the “IOREG” signature to the CPU_CCP reg
+    * Select the new clock source in the CLK_CTRL reg
+\end{verbatim}
+\end{tcolorbox}
+%
+% PSEUDOCODE PART B
+%
+\newpage
+\textbf{\textcolor{blue}{Pseudocode for Lab5b.c:}}
+\begin{tcolorbox}
+\begin{verbatim}
+MAIN:
+    * Call Change_CLK_32HZ Function
+    * Call ADC_INIT() Function
+	
+WHILE(TRUE){}
+    * Store ADC value
+END
+
+FUNCTION ADC_INIT
+    * SET PORT A as input
+    * SET up Control A and B
+    * Set up REf and Pre scaler controls
+    * Set up Chan 0 ctrl/mux ctrl
+
+FUNCTION Change_CLK_32HZ
+    * Enable the new oscillator
+
+    WHILE(OSC FLAG not set){}
+
+    * Write the “IOREG” signature to the CPU_CCP reg
+    * Select the new clock source in the CLK_CTRL reg
+\end{verbatim}
+\end{tcolorbox}	
+%
+% PSEUDOCODE PART C
+%
+\newpage
+\textbf{\textcolor{blue}{Pseudocode for Lab5c:}}
+\begin{tcolorbox}
+\begin{verbatim}
+MAIN:
+    * Call Change_CLK_32HZ Function
+    * Call ADC_INIT() Function
+    * Call USART_INIT() Function
+
+WHILE(TRUE){}
+    * Store ADC value
+END
+
+FUNCTION int_to_char
+    * int x;
+    switch(x)
+        case x: return 'x'
+        
+FUNCTION volt_string
+    IF(x is negative){
+        * y = 2s compliment of x
+    }
+    * Store first digit of f1
+    * Bring digit 2 to front
+    * Store 2nd digit of f1
+    * Store 3rd digit of f1
+    * Make string with volt output
+    * Store string in char array passed in
+	
+FUNCTION USART_INIT
+    * Set port D for USART com
+    * Set up Ctrl B and C
+    * Set up baud rate
+    
+FUNCTION OUT_STRING
+    While(char[] does not equal NULL){
+        * Call OUT_CHAR
+    }
+
+FUNCTION OUT_CHAR
+    While(Transmitting){}
+    * Return USART Data in a CHAR
+\end{verbatim}
+\end{tcolorbox}
+
+\begin{tcolorbox}
+\begin{verbatim}
+FUNCTION ADC_INIT
+    * SET PORT A as input
+    * SET up Control A and B
+    * Set up REf and Pre scaler controls
+    * Set up Chan 0 ctrl/mux ctrl
+
+FUNCTION Change_CLK_32HZ
+    * Enable the new oscillator
+
+    WHILE(OSC FLAG not set){}
+
+    * Write the “IOREG” signature to the CPU_CCP reg
+    * Select the new clock source in the CLK_CTRL reg
+\end{verbatim}
+\end{tcolorbox}
+%
+% PSEUDOCODE PART D
+%
+\newpage
+\textbf{\textcolor{blue}{Pseudocode for Lab5d.c:}}   
+\begin{tcolorbox}
+\begin{verbatim}    
+MAIN:
+    * Call Change_CLK_32HZ Function
+    * Call ADC_INIT() Function
+    * Call USART_INIT() Function
+
+WHILE(TRUE){}
+    * Store ADC value
+END
+
+FUNCTION int_to_char
+    * int x;
+    switch(x)
+        case x: return 'x'
+
+FUNCTION volt_string
+    IF(x is negative){
+        * y = 2s compliment of x
+    }
+    * Store first digit of f1
+    * Bring digit 2 to front
+    * Store 2nd digit of f1
+    * Store 3rd digit of f1
+    * Make string with volt output
+    * Store string in char array passed in
+
+FUNCTION USART_INIT
+    * Set port D for USART com
+    * Set up Ctrl B and C
+    * Set up baud rate
+
+FUNCTION OUT_STRING
+    While(char[] does not equal NULL){
+        * Call OUT_CHAR
+    }
+
+FUNCTION OUT_CHAR
+    While(Transmitting){}
+    * Return USART Data in a CHAR
+\end{verbatim}
+\end{tcolorbox}
+
+\begin{tcolorbox}
+\begin{verbatim}
+FUNCTION ADC_INIT
+    * SET PORT A as input
+    * SET up Control A and B
+    * Set up REf and Pre scaler controls
+    * Set up Chan 1 ctrl/mux ctrl
+
+FUNCTION Change_CLK_32HZ
+    * Enable the new oscillator
+
+    WHILE(OSC FLAG not set){}
+
+    * Write the “IOREG” signature to the CPU_CCP reg
+    * Select the new clock source in the CLK_CTRL reg
+\end{verbatim}
+\end{tcolorbox}
+%
+% PSEUDOCODE PART E
+%
+\newpage
+\textbf{\textcolor{blue}{Pseudocode for Lab5e.c:}}
+\begin{tcolorbox}
+\begin{verbatim}
+MAIN:
+    * Call Change_CLK_32HZ Function
+    * Call ADC_INIT() Function
+    * Call USART_INIT() Function
+    * Call COUNTER_INIT() Funcion
+    * Call EBI_INIT() Function
+    WHILE(TRUE){
+    	* Take user char
+        switch(char){
+            case A:
+            case a:
+                * Start conversion on CdS Cell	
+                * Display on terminal
+    	    case B:
+    	    case b:
+                * Start conversion on Dad
+                * Display on terminal
+    	    case C:
+    	    case c:
+                * Start counter
+    	    case D:
+    	    case d:
+                * Stop counter
+    	    case E: 
+    	    case e: 
+                * Start conversion on CdS Cell
+                * Store in SRAM
+    	    case F:
+    	    case f:
+                * Read from SRAM
+                * Display on terminal     	            
+        }
+    }
+END
+
+FUNCTION COUNTER_INIT
+    * SET top of counter
+    
+FUNCTION COUNTER_START
+    * SET interupt for counter
+    * Start COUNTER
+        
+FUNCTION COUNTER_STOP
+    * STOP TIMER INTERRUPT
+    * STOP TIMER
+    * RESET TIMER
+\end{verbatim}
+\end{tcolorbox}
+
+
+    
+
+\begin{tcolorbox}
+\begin{verbatim}    
+ISR(TCC0_OVF_vect)    
+    * Start conversion on CdS Cell	
+    * Display on terminal 
+    
+FUNCTION display_menu
+	* Set up Menu String pointer
+	* Set up array of strings pointers
+	* Loop thru menu array to display
+
+FUNCTION int_to_char
+    * int x;
+    switch(x)
+        case x: return 'x'
+
+FUNCTION volt_string
+    IF(x is negative){
+        * y = 2s compliment of x
+    }
+    * Store first digit of f1
+    * Bring digit 2 to front
+    * Store 2nd digit of f1
+    * Store 3rd digit of f1
+    * Make string with volt output
+    * Store string in char array passed in
+
+FUNCTION USART_INIT
+    * Set port D for USART com
+    * Set up Ctrl B and C
+    * Set up baud rate
+
+FUNCTION OUT_STRING
+    While(char[] does not equal NULL){
+        * Call OUT_CHAR
+    }
+
+FUNCTION OUT_CHAR
+    While(Transmitting){}
+    * Return USART Data in a CHAR
+ 
+FUNCTION ADC_INIT
+    * SET PORT A as input
+    * SET up Control A and B
+    * Set up REf and Pre scaler controls
+    * Set up Chan 0 ctrl/mux ctrl/INT
+    * Set up Chan 1 ctrl/mux ctrl/INT
+	* Set up compare value for interrupt
+\end{verbatim}
+\end{tcolorbox}
+
+
+\begin{tcolorbox}
+\begin{verbatim}
+ISR(ADCA_CH0_vect)
+    * TURN OFF all lights
+    * TURN ON RED
+	* Clear Flag
+	
+ISR(ADCA_CH1_vect)
+	* TURN OFF all lights
+	* TURN ON BLUE
+	* Clear Flag
+	
+FUNCTION EBI_INIT
+    * Set up EBI CTRL
+    * Set up EBI CHIP 0 and base address 
+    * Set up PORT H
+    * Set up PORT K	
+
+FUNCTION Change_CLK_32HZ
+    * Enable the new oscillator
+
+    WHILE(OSC FLAG not set){}
+
+    * Write the “IOREG” signature to the CPU_CCP reg
+    * Select the new clock source in the CLK_CTRL reg    
+\end{verbatim}
+\end{tcolorbox}
+
+
+
+
+
+
+
+
+
+
+\newpage
+\section*{h. Program Code}
+\textbf{\textcolor{blue}{Code for Lab5a.c:}}
+\lstinputlisting{Lab5a.c}
+\newpage
+\textbf{\textcolor{blue}{Code for Lab5b.c:}}
+\lstinputlisting{Lab5b.c}
+\newpage
+\textbf{\textcolor{blue}{Code for Lab5c.c}}
+\lstinputlisting{Lab5c.c}
+\newpage
+\textbf{\textcolor{blue}{Code for Lab5d.c}}
+\lstinputlisting{Lab5d.c}
+\newpage
+\textbf{\textcolor{blue}{Code for Lab5e.c}}
+\lstinputlisting{Lab5e.c}
+\newpage
+\section*{i. Appendix}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{Parta}
+	\label{fig:c}
+	\caption{DAD reading of EBI}
+\end{figure}
+\\
+0x37 is written to address 0x8500 when WE and CS0 are both true/active low. ALE1 latches to higher byte of address, which should happen since it is time-mutiplexed. 0x73 is written to address 0x8501 when WE and CS0 are both true/qctive low. ALE1 latches to higher byte of address, as stated above.
+\\
+\\\textbf{EQUATION:}\\
+Using 2 points (0x17, 0.45 V) and (0x54, 1.67 V) obtained from the voltmeter and register we can find the slope:\\
+$\dfrac{1.67 - 0.45}{0x54-0x17} = \dfrac{1.22}{0x3D} = 0.02$
+%61  
+%
+% HEADER FILES
+%
+\newpage
+\textbf{\textcolor{blue}{Code for ADC.h:}}
+\lstinputlisting{ADC.h}
+\newpage
+\textbf{\textcolor{blue}{Code for ATXMEGA\textunderscore DISPLAY.h:}}
+\lstinputlisting{ATXMEGA_DISPLAY.h}
+\newpage
+\textbf{\textcolor{blue}{Code for Clk\textunderscore 32MHz.h:}}
+\lstinputlisting{Clk_32MHz.h}
+\newpage
+\textbf{\textcolor{blue}{Code for EBI.h:}}
+\lstinputlisting{EBI.h}
+\newpage
+\textbf{\textcolor{blue}{Code for TIMER\textunderscore COUNTER.h:}}
+\lstinputlisting{TIMER_COUNTER.h}
+\newpage
+\textbf{\textcolor{blue}{Code for USART.h:}}
+\lstinputlisting{USART.h}
+\newpage
+\textbf{\textcolor{blue}{Code for constants.h:}}
+\lstinputlisting{constants.h}
+
+\end{document}

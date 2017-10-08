@@ -1,0 +1,42 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_int\lab4_serial_int\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_int\lab4_serial_int\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128a1udef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128A1Udef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_int\lab4_serial_int\Debug\lab4_serial_int.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab4_serial_int.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab4_serial_int.map</FILE>
+  <FILE>lab4_serial_int.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_int\lab4_serial_int\main.asm</FILE><LINE>50</LINE></MAIN>
+  <USART_ISR><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_int\lab4_serial_int\main.asm</FILE><LINE>118</LINE></USART_ISR>
+  <Test_String><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_int\lab4_serial_int\main.asm</FILE><LINE>47</LINE></Test_String>
+  <Change_CLK_32HZ><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_int\lab4_serial_int\main.asm</FILE><LINE>242</LINE></Change_CLK_32HZ>
+  <USART_INIT><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_int\lab4_serial_int\main.asm</FILE><LINE>139</LINE></USART_INIT>
+  <Counter_INIT><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_int\lab4_serial_int\main.asm</FILE><LINE>90</LINE></Counter_INIT>
+  <Never_End><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_int\lab4_serial_int\main.asm</FILE><LINE>68</LINE></Never_End>
+  <OUT_CHAR><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_int\lab4_serial_int\main.asm</FILE><LINE>183</LINE></OUT_CHAR>
+  <Transfer_Complete><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_int\lab4_serial_int\main.asm</FILE><LINE>186</LINE></Transfer_Complete>
+  <OUT_STRING><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_int\lab4_serial_int\main.asm</FILE><LINE>200</LINE></OUT_STRING>
+  <While_String><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_int\lab4_serial_int\main.asm</FILE><LINE>203</LINE></While_String>
+  <End_While_String><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_int\lab4_serial_int\main.asm</FILE><LINE>211</LINE></End_While_String>
+  <IN_CHAR><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_int\lab4_serial_int\main.asm</FILE><LINE>222</LINE></IN_CHAR>
+  <Recieve_Complete><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_int\lab4_serial_int\main.asm</FILE><LINE>226</LINE></Recieve_Complete>
+  <While_32_flag><FILE>C:\Users\micha\Documents\uP\Labs\Lab 4\lab4_serial_int\lab4_serial_int\main.asm</FILE><LINE>255</LINE></While_32_flag>
+ </LABELS>
+</ASSEMBLER_INFO>

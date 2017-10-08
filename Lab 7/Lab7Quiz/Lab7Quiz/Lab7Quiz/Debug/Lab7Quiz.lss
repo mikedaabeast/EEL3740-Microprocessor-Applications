@@ -1,0 +1,558 @@
+
+Lab7Quiz.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         000003fe  00000000  00000000  00000094  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         0000000c  00802000  000003fe  00000492  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          000000c9  0080200c  0080200c  0000049e  2**0
+                  ALLOC
+  3 .comment      00000030  00000000  00000000  0000049e  2**0
+                  CONTENTS, READONLY
+  4 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  000004d0  2**2
+                  CONTENTS, READONLY
+  5 .debug_aranges 00000108  00000000  00000000  00000510  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_info   00006390  00000000  00000000  00000618  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_abbrev 0000422e  00000000  00000000  000069a8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_line   00000c47  00000000  00000000  0000abd6  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_frame  000001b0  00000000  00000000  0000b820  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_str    000037e1  00000000  00000000  0000b9d0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_loc    000001e4  00000000  00000000  0000f1b1  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_ranges 000000a8  00000000  00000000  0000f395  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 fe 00 	jmp	0x1fc	; 0x1fc <__ctors_end>
+   4:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+   8:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+   c:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  10:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  14:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  18:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  1c:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  20:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  24:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  28:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  2c:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  30:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  34:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  38:	0c 94 cf 01 	jmp	0x39e	; 0x39e <__vector_14>
+  3c:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  40:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  44:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  48:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  4c:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  50:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  54:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  58:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  5c:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  60:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  64:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  68:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  6c:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  70:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  74:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  78:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  7c:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  80:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  84:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  88:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  8c:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  90:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  94:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  98:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  9c:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  a0:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  a4:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  a8:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  ac:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  b0:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  b4:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  b8:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  bc:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  c0:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  c4:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  c8:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  cc:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  d0:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  d4:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  d8:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  dc:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  e0:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  e4:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  e8:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  ec:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  f0:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  f4:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  f8:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+  fc:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 100:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 104:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 108:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 10c:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 110:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 114:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 118:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 11c:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 120:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 124:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 128:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 12c:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 130:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 134:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 138:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 13c:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 140:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 144:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 148:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 14c:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 150:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 154:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 158:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 15c:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 160:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 164:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 168:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 16c:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 170:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 174:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 178:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 17c:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 180:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 184:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 188:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 18c:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 190:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 194:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 198:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 19c:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 1a0:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 1a4:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 1a8:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 1ac:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 1b0:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 1b4:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 1b8:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 1bc:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 1c0:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 1c4:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 1c8:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 1cc:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 1d0:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 1d4:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 1d8:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 1dc:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 1e0:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 1e4:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 1e8:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 1ec:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 1f0:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 1f4:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+ 1f8:	0c 94 24 01 	jmp	0x248	; 0x248 <__bad_interrupt>
+
+000001fc <__ctors_end>:
+ 1fc:	11 24       	eor	r1, r1
+ 1fe:	1f be       	out	0x3f, r1	; 63
+ 200:	cf ef       	ldi	r28, 0xFF	; 255
+ 202:	cd bf       	out	0x3d, r28	; 61
+ 204:	df e3       	ldi	r29, 0x3F	; 63
+ 206:	de bf       	out	0x3e, r29	; 62
+ 208:	00 e0       	ldi	r16, 0x00	; 0
+ 20a:	0c bf       	out	0x3c, r16	; 60
+ 20c:	18 be       	out	0x38, r1	; 56
+ 20e:	19 be       	out	0x39, r1	; 57
+ 210:	1a be       	out	0x3a, r1	; 58
+ 212:	1b be       	out	0x3b, r1	; 59
+
+00000214 <__do_copy_data>:
+ 214:	10 e2       	ldi	r17, 0x20	; 32
+ 216:	a0 e0       	ldi	r26, 0x00	; 0
+ 218:	b0 e2       	ldi	r27, 0x20	; 32
+ 21a:	ee ef       	ldi	r30, 0xFE	; 254
+ 21c:	f3 e0       	ldi	r31, 0x03	; 3
+ 21e:	00 e0       	ldi	r16, 0x00	; 0
+ 220:	0b bf       	out	0x3b, r16	; 59
+ 222:	02 c0       	rjmp	.+4      	; 0x228 <__do_copy_data+0x14>
+ 224:	07 90       	elpm	r0, Z+
+ 226:	0d 92       	st	X+, r0
+ 228:	ac 30       	cpi	r26, 0x0C	; 12
+ 22a:	b1 07       	cpc	r27, r17
+ 22c:	d9 f7       	brne	.-10     	; 0x224 <__do_copy_data+0x10>
+ 22e:	1b be       	out	0x3b, r1	; 59
+
+00000230 <__do_clear_bss>:
+ 230:	20 e2       	ldi	r18, 0x20	; 32
+ 232:	ac e0       	ldi	r26, 0x0C	; 12
+ 234:	b0 e2       	ldi	r27, 0x20	; 32
+ 236:	01 c0       	rjmp	.+2      	; 0x23a <.do_clear_bss_start>
+
+00000238 <.do_clear_bss_loop>:
+ 238:	1d 92       	st	X+, r1
+
+0000023a <.do_clear_bss_start>:
+ 23a:	a5 3d       	cpi	r26, 0xD5	; 213
+ 23c:	b2 07       	cpc	r27, r18
+ 23e:	e1 f7       	brne	.-8      	; 0x238 <.do_clear_bss_loop>
+ 240:	0e 94 ad 01 	call	0x35a	; 0x35a <main>
+ 244:	0c 94 fd 01 	jmp	0x3fa	; 0x3fa <_exit>
+
+00000248 <__bad_interrupt>:
+ 248:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+0000024c <ADC_INIT>:
+extern const uint8_t ADC_CH0_INTCTRL_CONFIG;
+extern const uint8_t ADC_CH1_INTCTRL_CONFIG;
+extern const uint8_t ADC_CMP_CONFIG;
+
+void ADC_INIT(){
+	ADCA.CTRLA = 0x01;
+ 24c:	e0 e0       	ldi	r30, 0x00	; 0
+ 24e:	f2 e0       	ldi	r31, 0x02	; 2
+ 250:	81 e0       	ldi	r24, 0x01	; 1
+ 252:	80 83       	st	Z, r24
+	ADCA.REFCTRL = ADC_REFSEL_AREFB_gc;
+ 254:	90 e3       	ldi	r25, 0x30	; 48
+ 256:	92 83       	std	Z+2, r25	; 0x02
+	ADCA.CTRLB = ADC_RESOLUTION_8BIT_gc;
+ 258:	94 e0       	ldi	r25, 0x04	; 4
+ 25a:	91 83       	std	Z+1, r25	; 0x01
+	ADCA.PRESCALER = 0x07;
+ 25c:	97 e0       	ldi	r25, 0x07	; 7
+ 25e:	94 83       	std	Z+4, r25	; 0x04
+	PORTA.DIRCLR = PIN1_bm;
+ 260:	92 e0       	ldi	r25, 0x02	; 2
+ 262:	90 93 02 06 	sts	0x0602, r25	; 0x800602 <__TEXT_REGION_LENGTH__+0x700602>
+	ADCA.CH0.CTRL = ADC_CH_INPUTMODE_SINGLEENDED_gc;
+ 266:	80 a3       	std	Z+32, r24	; 0x20
+	ADCA.CH0.MUXCTRL = ADC_CH_MUXPOS_PIN1_gc;
+ 268:	88 e0       	ldi	r24, 0x08	; 8
+ 26a:	81 a3       	std	Z+33, r24	; 0x21
+ 26c:	08 95       	ret
+
+0000026e <Change_CLK_32HZ>:
+; Outputs: No direct outputs
+*/
+void Change_CLK_32HZ(void){
+	
+	//Set the clk config
+	OSC_CTRL = NEW_CLOCK_FREQ;
+ 26e:	80 91 0b 20 	lds	r24, 0x200B	; 0x80200b <NEW_CLOCK_FREQ>
+ 272:	80 93 50 00 	sts	0x0050, r24	; 0x800050 <__TEXT_REGION_LENGTH__+0x700050>
+	
+	//Wait for the right flag to be set in the OSC_STATUS reg
+	while((OSC_STATUS & PIN1_bm) != PIN1_bm);
+ 276:	80 91 51 00 	lds	r24, 0x0051	; 0x800051 <__TEXT_REGION_LENGTH__+0x700051>
+ 27a:	81 ff       	sbrs	r24, 1
+ 27c:	fc cf       	rjmp	.-8      	; 0x276 <Change_CLK_32HZ+0x8>
+	
+	//Write the “IOREG” signature to the CPU_CCP reg
+	CPU_CCP = CCP_IOREG_gc;
+ 27e:	88 ed       	ldi	r24, 0xD8	; 216
+ 280:	84 bf       	out	0x34, r24	; 52
+	
+	//Select the new clock source in the CLK_CTRL reg
+	CLK_CTRL = CLK_SCLKSEL_RC32M_gc;
+ 282:	81 e0       	ldi	r24, 0x01	; 1
+ 284:	80 93 40 00 	sts	0x0040, r24	; 0x800040 <__TEXT_REGION_LENGTH__+0x700040>
+ 288:	08 95       	ret
+
+0000028a <DAC_INIT>:
+; Inputs: No direct input
+; Outputs: No direct outputs
+*/
+void DAC_INIT(void){
+	//Set port A for output
+	PORTA.DIRSET = PIN2_bm;//0x04
+ 28a:	84 e0       	ldi	r24, 0x04	; 4
+ 28c:	80 93 01 06 	sts	0x0601, r24	; 0x800601 <__TEXT_REGION_LENGTH__+0x700601>
+	
+	//Set up DAC controls
+	DACA.CTRLA = DAC_CTRLA_CONFIG;
+ 290:	80 91 0a 20 	lds	r24, 0x200A	; 0x80200a <DAC_CTRLA_CONFIG>
+ 294:	e0 e0       	ldi	r30, 0x00	; 0
+ 296:	f3 e0       	ldi	r31, 0x03	; 3
+ 298:	80 83       	st	Z, r24
+	DACA.CTRLC = DAC_CTRLC_CONFIG;
+ 29a:	80 91 09 20 	lds	r24, 0x2009	; 0x802009 <DAC_CTRLC_CONFIG>
+ 29e:	82 83       	std	Z+2, r24	; 0x02
+ 2a0:	08 95       	ret
+
+000002a2 <DAD_SOURCE_DES>:
+}
+
+
+
+
+void DAD_SOURCE_DES(void){
+ 2a2:	0f 93       	push	r16
+ 2a4:	1f 93       	push	r17
+	//Wait until CH is not busy
+	while((DMA.CH0.CTRLB & PIN7_bm) == PIN7_bm);
+ 2a6:	80 91 11 01 	lds	r24, 0x0111	; 0x800111 <__TEXT_REGION_LENGTH__+0x700111>
+ 2aa:	87 fd       	sbrc	r24, 7
+ 2ac:	fc cf       	rjmp	.-8      	; 0x2a6 <DAD_SOURCE_DES+0x4>
+	while((DMA.CH1.CTRLB & PIN7_bm) == PIN7_bm);
+ 2ae:	80 91 21 01 	lds	r24, 0x0121	; 0x800121 <__TEXT_REGION_LENGTH__+0x700121>
+ 2b2:	87 fd       	sbrc	r24, 7
+ 2b4:	fc cf       	rjmp	.-8      	; 0x2ae <DAD_SOURCE_DES+0xc>
+	
+	//Set up address with DAD
+	uint32_t DAD_ADDRESS = (uint32_t)dad;
+ 2b6:	8c e0       	ldi	r24, 0x0C	; 12
+ 2b8:	90 e2       	ldi	r25, 0x20	; 32
+ 2ba:	09 2e       	mov	r0, r25
+ 2bc:	00 0c       	add	r0, r0
+ 2be:	aa 0b       	sbc	r26, r26
+ 2c0:	bb 0b       	sbc	r27, r27
+	uint8_t* dac_ptr = &DACA_CH0DATA;
+	uint32_t dac_address = (uint32_t)dac_ptr;
+
+//READ DAD, SEND TO ARRAY
+	//Source Address
+	DMA.CH0.SRCADDR0 = (uint8_t)(adc_address >> 0);
+ 2c2:	24 e2       	ldi	r18, 0x24	; 36
+ 2c4:	20 93 18 01 	sts	0x0118, r18	; 0x800118 <__TEXT_REGION_LENGTH__+0x700118>
+	DMA.CH0.SRCADDR1 = (uint8_t)(adc_address >> 8);
+ 2c8:	22 e0       	ldi	r18, 0x02	; 2
+ 2ca:	20 93 19 01 	sts	0x0119, r18	; 0x800119 <__TEXT_REGION_LENGTH__+0x700119>
+	DMA.CH0.SRCADDR2 = (uint8_t)(adc_address >> 16);
+ 2ce:	10 92 1a 01 	sts	0x011A, r1	; 0x80011a <__TEXT_REGION_LENGTH__+0x70011a>
+	//Destination Address
+	DMA.CH0.DESTADDR0 = (uint8_t)(DAD_ADDRESS >> 0);
+ 2d2:	80 93 1c 01 	sts	0x011C, r24	; 0x80011c <__TEXT_REGION_LENGTH__+0x70011c>
+	DMA.CH0.DESTADDR1 = (uint8_t)(DAD_ADDRESS >> 8);
+ 2d6:	09 2f       	mov	r16, r25
+ 2d8:	1a 2f       	mov	r17, r26
+ 2da:	2b 2f       	mov	r18, r27
+ 2dc:	33 27       	eor	r19, r19
+ 2de:	00 93 1d 01 	sts	0x011D, r16	; 0x80011d <__TEXT_REGION_LENGTH__+0x70011d>
+	DMA.CH0.DESTADDR2 = (uint8_t)(DAD_ADDRESS >> 16);
+ 2e2:	ad 01       	movw	r20, r26
+ 2e4:	66 27       	eor	r22, r22
+ 2e6:	77 27       	eor	r23, r23
+ 2e8:	40 93 1e 01 	sts	0x011E, r20	; 0x80011e <__TEXT_REGION_LENGTH__+0x70011e>
+	
+//READ ARRAY, SEND TO DAC	
+	//Source Address
+	DMA.CH1.SRCADDR0 = (uint8_t)(DAD_ADDRESS >> 0);
+ 2ec:	80 93 28 01 	sts	0x0128, r24	; 0x800128 <__TEXT_REGION_LENGTH__+0x700128>
+	DMA.CH1.SRCADDR1 = (uint8_t)(DAD_ADDRESS >> 8);
+ 2f0:	00 93 29 01 	sts	0x0129, r16	; 0x800129 <__TEXT_REGION_LENGTH__+0x700129>
+	DMA.CH1.SRCADDR2 = (uint8_t)(DAD_ADDRESS >> 16);
+ 2f4:	40 93 2a 01 	sts	0x012A, r20	; 0x80012a <__TEXT_REGION_LENGTH__+0x70012a>
+	//Destination Address
+	DMA.CH1.DESTADDR0 = (uint8_t)(dac_address >> 0);
+ 2f8:	88 e1       	ldi	r24, 0x18	; 24
+ 2fa:	80 93 2c 01 	sts	0x012C, r24	; 0x80012c <__TEXT_REGION_LENGTH__+0x70012c>
+	DMA.CH1.DESTADDR1 = (uint8_t)(dac_address >> 8);
+ 2fe:	83 e0       	ldi	r24, 0x03	; 3
+ 300:	80 93 2d 01 	sts	0x012D, r24	; 0x80012d <__TEXT_REGION_LENGTH__+0x70012d>
+	DMA.CH1.DESTADDR2 = (uint8_t)(dac_address >> 16);
+ 304:	10 92 2e 01 	sts	0x012E, r1	; 0x80012e <__TEXT_REGION_LENGTH__+0x70012e>
+	
+	return;
+}
+ 308:	1f 91       	pop	r17
+ 30a:	0f 91       	pop	r16
+ 30c:	08 95       	ret
+
+0000030e <DMA_INIT>:
+/*********************Function**************************************
+; Function Name: DMA_INIT
+; Inputs: No inputs
+; Outputs: No outputs
+*/
+void DMA_INIT(uint8_t mode){
+ 30e:	cf 93       	push	r28
+ 310:	df 93       	push	r29
+	//Enable DMA
+	DMA.CTRL = DMA_CTRL_CONFIG;
+ 312:	80 91 06 20 	lds	r24, 0x2006	; 0x802006 <DMA_CTRL_CONFIG>
+ 316:	c0 e0       	ldi	r28, 0x00	; 0
+ 318:	d1 e0       	ldi	r29, 0x01	; 1
+ 31a:	88 83       	st	Y, r24
+	
+	//ADDRESS CONTROL REG: BLOCK;INCREMENT;BURST;INCREMENT
+	DMA.CH0.ADDRCTRL = 0b10010101;
+ 31c:	85 e9       	ldi	r24, 0x95	; 149
+ 31e:	8a 8b       	std	Y+18, r24	; 0x12
+	DMA.CH1.ADDRCTRL = DMA_CH0_ADDRCTRL_CONFIG;
+ 320:	80 91 05 20 	lds	r24, 0x2005	; 0x802005 <DMA_CH0_ADDRCTRL_CONFIG>
+ 324:	8a a3       	std	Y+34, r24	; 0x22
+	
+	//TRIGGER SOURCE REG: TCC0
+	DMA.CH0.TRIGSRC = DMA_CH0_TRIGSRC_CONFIG;
+ 326:	80 91 04 20 	lds	r24, 0x2004	; 0x802004 <DMA_CH0_TRIGSRC_CONFIG>
+ 32a:	8b 8b       	std	Y+19, r24	; 0x13
+	DMA.CH1.TRIGSRC = DMA_CH1_TRIGSRC_CONFIG;
+ 32c:	80 91 03 20 	lds	r24, 0x2003	; 0x802003 <DMA_CH1_TRIGSRC_CONFIG>
+ 330:	8b a3       	std	Y+35, r24	; 0x23
+	
+	//CH BLOCK TRANSFER COUNT: 200=100(8bit)*2(16bit)
+	DMA.CH0.TRFCNT = DMA_CH0_TRFCNT_CONFIG;
+ 332:	80 91 02 20 	lds	r24, 0x2002	; 0x802002 <DMA_CH0_TRFCNT_CONFIG>
+ 336:	90 e0       	ldi	r25, 0x00	; 0
+ 338:	8c 8b       	std	Y+20, r24	; 0x14
+ 33a:	9d 8b       	std	Y+21, r25	; 0x15
+	DMA.CH1.TRFCNT = DMA_CH0_TRFCNT_CONFIG;
+ 33c:	8c a3       	std	Y+36, r24	; 0x24
+ 33e:	9d a3       	std	Y+37, r25	; 0x25
+	
+	//CONTINOUS DMA
+	DMA.CH0.REPCNT = DMA_CH0_REPCNT_CONFIG; 
+ 340:	80 91 01 20 	lds	r24, 0x2001	; 0x802001 <DMA_CH0_REPCNT_CONFIG>
+ 344:	8e 8b       	std	Y+22, r24	; 0x16
+	DMA.CH1.REPCNT = DMA_CH0_REPCNT_CONFIG;
+ 346:	8e a3       	std	Y+38, r24	; 0x26
+	
+	DAD_SOURCE_DES();
+ 348:	0e 94 51 01 	call	0x2a2	; 0x2a2 <DAD_SOURCE_DES>
+		
+	//Set CH0 CTRL: ENABLE;REPEAT;SINGLE;2BYTE
+	DMA.CH0.CTRLA = DMA_CH0_CTRLA_CONFIG;
+ 34c:	80 91 00 20 	lds	r24, 0x2000	; 0x802000 <DMA_CH0_CTRLA_CONFIG>
+ 350:	88 8b       	std	Y+16, r24	; 0x10
+	DMA.CH1.CTRLA = DMA_CH0_CTRLA_CONFIG;
+ 352:	88 a3       	std	Y+32, r24	; 0x20
+	
+	//Return from function
+	return;
+}
+ 354:	df 91       	pop	r29
+ 356:	cf 91       	pop	r28
+ 358:	08 95       	ret
+
+0000035a <main>:
+#include "DMA.h"
+#include "ADC.h"
+
+int main(void){
+    //Set up program
+	Change_CLK_32HZ();
+ 35a:	0e 94 37 01 	call	0x26e	; 0x26e <Change_CLK_32HZ>
+	DAC_INIT();
+ 35e:	0e 94 45 01 	call	0x28a	; 0x28a <DAC_INIT>
+	ADC_INIT();
+ 362:	0e 94 26 01 	call	0x24c	; 0x24c <ADC_INIT>
+	COUNTER_INIT();
+ 366:	0e 94 bf 01 	call	0x37e	; 0x37e <COUNTER_INIT>
+	//UPDATE_PER(2);//Change to 100Hz
+	DMA_INIT('d');
+ 36a:	84 e6       	ldi	r24, 0x64	; 100
+ 36c:	0e 94 87 01 	call	0x30e	; 0x30e <DMA_INIT>
+	COUNTER_START();
+ 370:	0e 94 c6 01 	call	0x38c	; 0x38c <COUNTER_START>
+	
+	//enable interrupts.
+	PMIC_CTRL = 0x07;
+ 374:	87 e0       	ldi	r24, 0x07	; 7
+ 376:	80 93 a2 00 	sts	0x00A2, r24	; 0x8000a2 <__TEXT_REGION_LENGTH__+0x7000a2>
+	sei();
+ 37a:	78 94       	sei
+ 37c:	ff cf       	rjmp	.-2      	; 0x37c <main+0x22>
+
+0000037e <COUNTER_INIT>:
+	
+	//Update PER (Hz)
+	TCC0.PER = (TC_PER_CONFIG/input);
+	
+	//Start Timer
+	COUNTER_START();
+ 37e:	80 e8       	ldi	r24, 0x80	; 128
+ 380:	9c e0       	ldi	r25, 0x0C	; 12
+ 382:	80 93 26 08 	sts	0x0826, r24	; 0x800826 <__TEXT_REGION_LENGTH__+0x700826>
+ 386:	90 93 27 08 	sts	0x0827, r25	; 0x800827 <__TEXT_REGION_LENGTH__+0x700827>
+ 38a:	08 95       	ret
+
+0000038c <COUNTER_START>:
+ 38c:	80 91 08 20 	lds	r24, 0x2008	; 0x802008 <INTCTRLA_CONFIG>
+ 390:	e0 e0       	ldi	r30, 0x00	; 0
+ 392:	f8 e0       	ldi	r31, 0x08	; 8
+ 394:	86 83       	std	Z+6, r24	; 0x06
+ 396:	80 91 07 20 	lds	r24, 0x2007	; 0x802007 <CLK_DIV_CONFIG>
+ 39a:	80 83       	st	Z, r24
+ 39c:	08 95       	ret
+
+0000039e <__vector_14>:
+/*********************ISR**************************************
+; ISR TYPE: TCC0_OVF_vect
+; Inputs: NO inputs
+; Outputs: No outputs
+*/
+ISR(TCC0_OVF_vect){
+ 39e:	1f 92       	push	r1
+ 3a0:	0f 92       	push	r0
+ 3a2:	0f b6       	in	r0, 0x3f	; 63
+ 3a4:	0f 92       	push	r0
+ 3a6:	11 24       	eor	r1, r1
+ 3a8:	08 b6       	in	r0, 0x38	; 56
+ 3aa:	0f 92       	push	r0
+ 3ac:	18 be       	out	0x38, r1	; 56
+ 3ae:	0b b6       	in	r0, 0x3b	; 59
+ 3b0:	0f 92       	push	r0
+ 3b2:	1b be       	out	0x3b, r1	; 59
+ 3b4:	2f 93       	push	r18
+ 3b6:	3f 93       	push	r19
+ 3b8:	8f 93       	push	r24
+ 3ba:	9f 93       	push	r25
+ 3bc:	ef 93       	push	r30
+ 3be:	ff 93       	push	r31
+	//Preserve Status Reg
+	uint8_t temp = CPU_SREG;
+ 3c0:	9f b7       	in	r25, 0x3f	; 63
+	
+	//START conversion
+	ADCA.CH0.CTRL |= PIN7_bm;
+ 3c2:	e0 e0       	ldi	r30, 0x00	; 0
+ 3c4:	f2 e0       	ldi	r31, 0x02	; 2
+ 3c6:	80 a1       	ldd	r24, Z+32	; 0x20
+ 3c8:	80 68       	ori	r24, 0x80	; 128
+ 3ca:	80 a3       	std	Z+32, r24	; 0x20
+	x = ADCA.CH0.RES;
+ 3cc:	24 a1       	ldd	r18, Z+36	; 0x24
+ 3ce:	35 a1       	ldd	r19, Z+37	; 0x25
+ 3d0:	20 93 d4 20 	sts	0x20D4, r18	; 0x8020d4 <x>
+		
+	//Clear interrupt flags
+	TCC0.INTFLAGS = 0x01;
+ 3d4:	81 e0       	ldi	r24, 0x01	; 1
+ 3d6:	80 93 0c 08 	sts	0x080C, r24	; 0x80080c <__TEXT_REGION_LENGTH__+0x70080c>
+	
+	//Restore Status Reg
+	CPU_SREG = temp;
+ 3da:	9f bf       	out	0x3f, r25	; 63
+	
+	//Return from ISR
+	return;
+ 3dc:	ff 91       	pop	r31
+ 3de:	ef 91       	pop	r30
+ 3e0:	9f 91       	pop	r25
+ 3e2:	8f 91       	pop	r24
+ 3e4:	3f 91       	pop	r19
+ 3e6:	2f 91       	pop	r18
+ 3e8:	0f 90       	pop	r0
+ 3ea:	0b be       	out	0x3b, r0	; 59
+ 3ec:	0f 90       	pop	r0
+ 3ee:	08 be       	out	0x38, r0	; 56
+ 3f0:	0f 90       	pop	r0
+ 3f2:	0f be       	out	0x3f, r0	; 63
+ 3f4:	0f 90       	pop	r0
+ 3f6:	1f 90       	pop	r1
+ 3f8:	18 95       	reti
+
+000003fa <_exit>:
+ 3fa:	f8 94       	cli
+
+000003fc <__stop_program>:
+ 3fc:	ff cf       	rjmp	.-2      	; 0x3fc <__stop_program>

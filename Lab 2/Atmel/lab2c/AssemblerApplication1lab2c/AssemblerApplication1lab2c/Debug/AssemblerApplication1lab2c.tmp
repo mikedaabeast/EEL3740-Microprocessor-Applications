@@ -1,0 +1,35 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\micha\Documents\uP\Labs\Lab 2\Atmel\lab2c\AssemblerApplication1lab2c\AssemblerApplication1lab2c\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\micha\Documents\uP\Labs\Lab 2\Atmel\lab2c\AssemblerApplication1lab2c\AssemblerApplication1lab2c\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128a1udef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128A1Udef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\micha\Documents\uP\Labs\Lab 2\Atmel\lab2c\AssemblerApplication1lab2c\AssemblerApplication1lab2c\Debug\AssemblerApplication1lab2c.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>AssemblerApplication1lab2c.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>AssemblerApplication1lab2c.map</FILE>
+  <FILE>AssemblerApplication1lab2c.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\micha\Documents\uP\Labs\Lab 2\Atmel\lab2c\AssemblerApplication1lab2c\AssemblerApplication1lab2c\main.asm</FILE><LINE>37</LINE></MAIN>
+  <Change_CLK_32HZ><FILE>C:\Users\micha\Documents\uP\Labs\Lab 2\Atmel\lab2c\AssemblerApplication1lab2c\AssemblerApplication1lab2c\main.asm</FILE><LINE>103</LINE></Change_CLK_32HZ>
+  <While_Loop><FILE>C:\Users\micha\Documents\uP\Labs\Lab 2\Atmel\lab2c\AssemblerApplication1lab2c\AssemblerApplication1lab2c\main.asm</FILE><LINE>55</LINE></While_Loop>
+  <IF_RED><FILE>C:\Users\micha\Documents\uP\Labs\Lab 2\Atmel\lab2c\AssemblerApplication1lab2c\AssemblerApplication1lab2c\main.asm</FILE><LINE>65</LINE></IF_RED>
+  <IF_GREEN><FILE>C:\Users\micha\Documents\uP\Labs\Lab 2\Atmel\lab2c\AssemblerApplication1lab2c\AssemblerApplication1lab2c\main.asm</FILE><LINE>74</LINE></IF_GREEN>
+  <IF_BLUE><FILE>C:\Users\micha\Documents\uP\Labs\Lab 2\Atmel\lab2c\AssemblerApplication1lab2c\AssemblerApplication1lab2c\main.asm</FILE><LINE>83</LINE></IF_BLUE>
+  <END_IF><FILE>C:\Users\micha\Documents\uP\Labs\Lab 2\Atmel\lab2c\AssemblerApplication1lab2c\AssemblerApplication1lab2c\main.asm</FILE><LINE>92</LINE></END_IF>
+  <While_32_flag><FILE>C:\Users\micha\Documents\uP\Labs\Lab 2\Atmel\lab2c\AssemblerApplication1lab2c\AssemblerApplication1lab2c\main.asm</FILE><LINE>117</LINE></While_32_flag>
+ </LABELS>
+</ASSEMBLER_INFO>

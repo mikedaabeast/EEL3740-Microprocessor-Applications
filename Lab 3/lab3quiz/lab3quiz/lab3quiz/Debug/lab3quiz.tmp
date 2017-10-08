@@ -1,0 +1,38 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3quiz\lab3quiz\lab3quiz\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3quiz\lab3quiz\lab3quiz\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128a1udef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128A1Udef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3quiz\lab3quiz\lab3quiz\Debug\lab3quiz.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab3quiz.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab3quiz.map</FILE>
+  <FILE>lab3quiz.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <ext_int_logic><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3quiz\lab3quiz\lab3quiz\main.asm</FILE><LINE>280</LINE></ext_int_logic>
+  <overflow_logic><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3quiz\lab3quiz\lab3quiz\main.asm</FILE><LINE>227</LINE></overflow_logic>
+  <MAIN><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3quiz\lab3quiz\lab3quiz\main.asm</FILE><LINE>57</LINE></MAIN>
+  <Change_CLK_32HZ><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3quiz\lab3quiz\lab3quiz\main.asm</FILE><LINE>322</LINE></Change_CLK_32HZ>
+  <PURPLE_PWM><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3quiz\lab3quiz\lab3quiz\main.asm</FILE><LINE>103</LINE></PURPLE_PWM>
+  <Never_End><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3quiz\lab3quiz\lab3quiz\main.asm</FILE><LINE>89</LINE></Never_End>
+  <SET_COUNTER><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3quiz\lab3quiz\lab3quiz\main.asm</FILE><LINE>188</LINE></SET_COUNTER>
+  <SET_COUNTER_INT><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3quiz\lab3quiz\lab3quiz\main.asm</FILE><LINE>207</LINE></SET_COUNTER_INT>
+  <ENDIF><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3quiz\lab3quiz\lab3quiz\main.asm</FILE><LINE>251</LINE></ENDIF>
+  <Display><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3quiz\lab3quiz\lab3quiz\main.asm</FILE><LINE>247</LINE></Display>
+  <While_32_flag><FILE>C:\Users\micha\Documents\uP\Labs\Lab 3\lab3quiz\lab3quiz\lab3quiz\main.asm</FILE><LINE>335</LINE></While_32_flag>
+ </LABELS>
+</ASSEMBLER_INFO>

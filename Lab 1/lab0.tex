@@ -1,0 +1,108 @@
+\documentclass[11pt]{article}
+\renewcommand{\baselinestretch}{1.05}
+\usepackage{amsmath,amsthm,verbatim,amssymb,amsfonts,amscd, graphicx}
+\usepackage{blindtext}
+
+\usepackage{caption}
+\usepackage{enumitem}
+
+%Additional Packages
+\usepackage{enumitem}
+\usepackage{graphics}
+\usepackage{float}
+\graphicspath{ {images/} }
+%\usepackage[framed]{mcode}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=cyan,
+}
+
+\topmargin0.0cm
+\headheight0.0cm
+\headsep0.0cm
+\oddsidemargin0.0cm
+\textheight23.0cm
+\textwidth16.5cm
+\footskip1.0cm
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem*{surfacecor}{Corollary 1}
+\newtheorem{conjecture}{Conjecture} 
+\newtheorem{question}{Question} 
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+
+\usepackage{indentfirst}
+%\renewcommand{\thesubsubsection}{\thesubsection.\alph{subsection}}
+
+\newcommand{\floor}[1]{\lfloor #1 \rfloor}
+
+%SETUP PSUEDOCODE
+\usepackage{tcolorbox}
+
+
+%SETUP AtxMEGA128A1U
+\usepackage{listings}
+
+\usepackage{xcolor}
+\definecolor{bluekeywords}{rgb}{0.13,0.13,1}
+\definecolor{greencomments}{rgb}{0,0.5,0}
+\definecolor{turqusnumbers}{rgb}{0.17,0.57,0.69}
+\definecolor{redstrings}{rgb}{0.5,0,0}
+
+\lstdefinelanguage{atxmega128a1u}{
+	morekeywords={include, ,org, rjmp, CSEG, db, equ, DSEG, match, with, rec, open, module, namespace, type, of, member, and, for, in, do, begin, end, fun, function, try, mutable, if, then, else},
+	keywordstyle=\color{bluekeywords},
+	sensitive=false,
+	morecomment=[l][\color{greencomments}]{;},
+	morecomment=[s][\color{greencomments}]{{/*}{*/}},
+	morestring=[b]",
+	stringstyle=\color{redstrings}
+}
+
+\lstnewenvironment{asmlisting}{
+	\lstset{
+		frame=single,
+		language=atxmega128a1u,
+		basicstyle=\ttfamily,
+		breaklines=true,
+		columns=fullflexible
+	}
+}
+{}
+
+
+
+\begin{document}
+\captionsetup[figure]{labelfont=bf} 
+
+\title{Lab 1}
+\author{\textbf{Michael Arboleda}\\Lab Section: 7F34}
+\maketitle
+\section*{b. Answers to all pre-lab questions}
+\begin{enumerate}[label={\arabic*)},font={\color{red}\bfseries}]
+	%
+	%1
+	%
+	\item .
+	\\[0.8ex]
+	\textbf{ANS:}
+\end{enumerate}
+\section*{c. Problems Encountered}
+\section*{d. Future Work/Applications}
+\section*{e. Schematics}
+\section*{g. Pseudocode/Flowcharts}
+\textbf{\textcolor{blue}{Pseudocode for lab0.asm:}}
+\begin{tcolorbox}
+\begin{verbatim}
+\end{verbatim}
+\end{tcolorbox}
+\section*{h. Program Code}
+\section*{i. Appendix}
+\end{document}
